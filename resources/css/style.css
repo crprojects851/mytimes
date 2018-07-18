@@ -1,38 +1,35 @@
-* {
+body {
   margin: 0;
   font-family: Verdana;
 }
 
-.container {
-  border: 1px solid black;
+.flex-container {
   display: flex;
+  width: 100%;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+h1.header {
+  color: MediumAquamarine;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 930px;
 }
 
 .logo {
-  padding: 15px 35px;
-  padding-right: 15px;
-  display: flex;
-}
-
-.header {
-  font-size: 14px;
-  font-weight: bold;
-  color: MediumAquamarine;
-  display: flex;
-  padding-top: 35px;
+  padding: 5px 0px 5px 30px;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  position: relative;
-  left: 800px;
 }
 
 nav li {
-  display: inline-block;
-  margin-left: 50px;
-  padding-top: 35px;
+  list-style: none;
+  padding: 20px;
 }
 
 nav a {
