@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 body {
   margin: 0;
   font-family: Verdana;
@@ -9,7 +11,6 @@ body {
   border-bottom: 1px solid black;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
 }
 
 h1.header {
@@ -35,4 +36,40 @@ nav li {
 nav a {
   color: black;
   font-weight: bold;
+}
+
+/* CONTENT */
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 630px;
+}
+
+.box-large {
+  border: 1px solid black;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+  border: 1px solid black;
+}
+
+.box-middle {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 240px;
+}
+
+.box-right {
+  border: 1px solid black;
 }
