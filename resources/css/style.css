@@ -72,9 +72,24 @@ nav a {
   border: 1px solid black;
 }
 
-.container,
-.container-1,
-.container-2,
-.container-3, {
+.container {
   display: flex;
+  justify-content: space-around;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-container-1 {
+  position: relative;
+}
+
+.text-block {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
